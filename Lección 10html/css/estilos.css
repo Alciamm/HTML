@@ -1,0 +1,30 @@
+table{
+    width: 50%;
+}
+
+table, td, th{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+caption{
+    color: #d675da;
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+
+th{
+    color: #d675da;
+    background-color:aliceblue;
+    font-family:'Lucida Sans', sans-serif;
+}
+/*para cambiar fondo de renglones pares*/
+tr:nth-child(even){
+    background-color: lavender;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(196, 238, 224);
+}
